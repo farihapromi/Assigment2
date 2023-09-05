@@ -533,6 +533,17 @@ line-height: normal;
 
 
 }
+@media screen  and(max-width: 576px){
+    .video-section{
+        flex-direction: column;
+    }
+    .row-container{
+        flex-direction: column;
+    }
+
+}
+    
+
 
  
 
