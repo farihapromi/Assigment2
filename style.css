@@ -69,7 +69,8 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 text-transform: uppercase;
-margin-top:20px;
+margin-top:5px;
+margin-left:120px;
 
 }
 .heading-play{
@@ -82,12 +83,15 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-transform: uppercase;
+margin-left:100px;
 }
 .img-right{
     margin-left:370px;
 }
 .goat-list{
     list-style: none;
+    margin-left:130px;
+    padding-left:10px;
 }
 .sign-btn{
     border-radius: 48px;
@@ -98,6 +102,7 @@ display: inline-flex;
 padding:21px 40px;
 align-items: flex-start;
 gap: 10px;
+margin-left:140px;
 
 
 }
@@ -110,6 +115,7 @@ display: inline-flex;
 padding: 21px 40px;
 align-items: flex-start;
 gap: 10px;
+
 
 }
 /* ganer */
@@ -346,6 +352,26 @@ color:#FF42A5;
 border:none;
 margin-left:240px;
 }
+.archade-game{
+    color:#FF42A5
+}
+.btn-game1{
+    border:#F948B2;
+    display:flex;
+    padding:10px;
+    border-radius:15px;
+    background-color: #fff;
+
+flex-shrink: 0;
+   
+    
+  
+    
+}
+.btn-game1:hover{
+    border: 1px solid #F948B2;
+
+}
 /* acion game */
 .game1,.game2,.game3,.game4,.game5{
     display:flex;
@@ -354,6 +380,10 @@ margin-left:240px;
 .img-game{
     gap:10px;
     margin-left:20px;
+    margin-right:10px;
+    width: 60px;
+height: 60px;
+
 }
 .row{
     display:flex;
@@ -410,42 +440,60 @@ gap:20px;
 .story{
     text-align: center;
 }
-.fa-twitter{
+.twitter{
     
     width: 40px;
 height: 40px;
 flex-shrink: 0;
+background-color: #0B0223;
 color:white;
+border:none;
 }
-.fa-facebook{
-    width: 40px;
-height: 40px;
+.facebook{
+     width: 40px;
+height: 40px; 
 flex-shrink: 0;
 color:#1877F2;
+background-color: #0B0223;
+border:none;
 }
-.fa-linkedin{
+.linkedin{
     width: 40px;
 height: 40px;
 flex-shrink: 0;
+background-color: #0B0223;
 color:white;
+border:none;
+
    
 }
 .youtube{
-    width: 57.13px;
+    width: 57px;
 height: 40px;
-flex-shrink: 0;
+
+background-color: #0B0223;
+color:white;
+border:none;
 }
-.fa-instagram{
+.instagram{
     width: 40px;
 height: 40px;
 flex-shrink: 0;
+background-color: #0B0223;
 color:white;
+border:none;
+
 }
-.fa-apple{
-    width: 60px;
-height: 60px;
+.apple{
+    width: 40px;
+height: 40px;
 flex-shrink: 0;
+background-color: #0B0223;
+border-radius: 5px;
 color:white;
+border:none;
+
+
 
 }
 .row-social{
@@ -485,3 +533,6 @@ line-height: normal;
 
 
 }
+
+ 
+
